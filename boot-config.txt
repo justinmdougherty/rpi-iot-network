@@ -1,0 +1,17 @@
+# Raspberry Pi OS Configuration File
+# Place this file as 'config.txt' in the boot partition after flashing
+
+# Enable SSH on first boot
+enable_uart=1
+
+# WiFi Country (change to your country)
+country=US
+
+# Enable WiFi
+dtparam=wifi=on
+
+# GPU memory split (can help with stability)
+gpu_mem=64
+
+# Optional: Disable WiFi power management
+dtoverlay=disable-wifi-power-management

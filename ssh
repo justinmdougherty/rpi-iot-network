@@ -1,0 +1,2 @@
+# Enable SSH on first boot
+# This file should be placed as 'ssh' (no extension) in the boot partition
